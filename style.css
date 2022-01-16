@@ -1,0 +1,20 @@
+.logo{
+   border: 1px solid;
+   box-sizing: border-box;
+   padding: 0 11px;
+   border-radius: 30px;
+   background-color: orange;
+}
+.nav-link:hover{
+   font-size: 17px;
+}
+.About{
+    height: 710px;
+    background-color:#ffd700;
+}
+#pop{
+    width: 200px;
+}
+.pil{
+    background: white;
+}
