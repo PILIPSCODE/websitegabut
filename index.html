@@ -26,7 +26,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link" aria-current="page" href="#">HOME</a>
           <a class="nav-link" href="#about">ABOUTME</a>
           <a class="nav-link" href="#mlbb">MY MLBB</a>
           <a class="nav-link" href="#contact">CONTACTME</a>
@@ -35,18 +35,35 @@
     </div>
   </nav>
   <!-- end navbar -->
+  <!-- Button trigger modal -->
 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title text-light" id="staticBackdropLabel">Photo Profile</h5>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.ibb.co/w6zQtt8/IMG-20211126-070942.jpg" alt="isi kuota cok" width="230"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- profile -->
   <div class="container1 bg-dark text-center p-5">
       <div class="row">
           <div class="col-md-4">
-            <img src="https://i.ibb.co/w6zQtt8/IMG-20211126-070942.jpg" alt="pilips" width="230" class="rounded-circle img-tumbnail" id="halo"/>
+            <img src="https://i.ibb.co/w6zQtt8/IMG-20211126-070942.jpg" alt="pilips" width="230" class="rounded-circle img-tumbnail" id="halo" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"/>
           </div>
           <div class="col-md-4 mt-5 ">
-            <a href=""><i class="bi bi-instagram text-light"></i></a>
-            <a href=""><i class="bi bi-tiktok ms-2 text-light"></i></a>
-            <a href=""><i class="bi bi-youtube ms-2 text-light"></i></a>
+            <a href="https://www.instagram.com/profesorp.g"><i class="bi bi-instagram text-light"></i></a>
+            <a href="https://vt.tiktok.com/ZSeSsFvHP/"><i class="bi bi-tiktok ms-2 text-light"></i></a>
+            <a href="https://youtube.com/channel/UCHduCsP259BU7Pc4nLuI9GA"><i class="bi bi-youtube ms-2 text-light"></i></a>
             <h1 class="text-light">Pilipus Kuncoro</h1>
             <h2  class="lead text-light">Gamer | Student</h2>
             <h4 class="text-light" id="i"></h4>
@@ -69,7 +86,7 @@
                 <p>perkenalkan nama saya pilipus kuncoro wismoady saya membuat website ini karena saya gabut dalam pandemi  </p>
             </div>
         </div>      
-        <div class="row text-center justify-content-end"  data-aos="fade-left" data-aos-duration="2000">     
+        <div class="row text-center justify-content-end"  data-aos="fade-right" data-aos-duration="1000">     
             <div class="col-md-4">
                 <img id="pop"src="/img/gambar.jpg" alt="gamabr">
             </div>  

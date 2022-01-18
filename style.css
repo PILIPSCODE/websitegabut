@@ -6,7 +6,9 @@
    background-color: orange;
 }
 .nav-link:hover{
-   font-size: 17px;
+   border:1px solid white;
+   border-radius: 10px;
+   transition: all 1s;
 }
 .About{
     height: 710px;
